@@ -20,8 +20,33 @@ h1, legend {
     background-color: teal;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-shadow: 2px 2px 7px black;
+    width: 350px;
+    text-align: center;
+    padding: 25px;
     } 
 p, ul, blockquote  {
     font-size: 12px;
 }   
+
+#figcap01 {
+    font-size: 9px;
+}
+
+#one {
+    border-width: thick;
+    border-style: ridge;
+    border-color: teal;
+    padding: 5px;
+    Margin: 5px;
+    height: 325px;
+    width: 300px;
+}
+
+.nav {
+    display: inline;
+    text-align: right;
+    margin-right: 12px;
+    width: 350px;
+    padding:25px;
+}
 
