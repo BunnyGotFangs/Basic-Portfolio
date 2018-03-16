@@ -5,17 +5,27 @@ body {
     width:960px;
     padding:20px;
      }
-.main {
-    background-color: white;
-    font-family: verdana;
-    padding:inherit;
-    }
-h1, legend {
-    color: teal;
+
+.header{    
+    background-color:white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-   }
-   
+    width: 960px;
+    text-align: center;
+    padding: 20px;
+}
+
+.nav {
+        display: inline;
+        text-align: right;
+        margin-right: 12px;
+     }
+    
+#menu{
+        float: right
+    }  
+
 #me {
+    float:left;
     color: white;
     background-color: teal;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -24,8 +34,15 @@ h1, legend {
     text-align: center;
     padding: 25px;
     } 
+
+h1, legend {
+    color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
 p, ul, blockquote  {
-    font-size: 12px;
+    font-size: 14px;
+    font-family: verdana;
 }   
 
 #figcap01 {
@@ -33,20 +50,30 @@ p, ul, blockquote  {
 }
 
 #one {
+    float:left;
     border-width: thick;
     border-style: ridge;
     border-color: teal;
-    padding: 5px;
+    padding: 10px;
+    Margin: 15px;
+    height: 198px;
+    width: 175px;
+    text-align:center;
+  }
+
+.content {
+    background-color:white;
+    padding:5px;
     Margin: 5px;
-    height: 325px;
-    width: 300px;
 }
 
-.nav {
-    display: inline;
-    text-align: right;
-    margin-right: 12px;
-    width: 350px;
-    padding:25px;
-}
+.footer {
+    background-color: gray;
+    color:white;
+    text-align: center;
+    height:35px;
+    border-top-color: teal;
+    border-width: thick;
+    border-top-style: solid;
+    }
 
