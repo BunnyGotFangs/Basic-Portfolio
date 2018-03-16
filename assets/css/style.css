@@ -1,0 +1,27 @@
+body {
+    font-family: georgia, times, times new roman, serif;
+    color: black;
+    background-color: lightgray;
+    width:960px;
+    padding:20px;
+     }
+.main {
+    background-color: white;
+    font-family: verdana;
+    padding:inherit;
+    }
+h1, legend {
+    color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+   
+#me {
+    color: white;
+    background-color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 7px black;
+    } 
+p, ul, blockquote  {
+    font-size: 12px;
+}   
+
