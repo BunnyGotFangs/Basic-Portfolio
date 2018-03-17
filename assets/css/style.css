@@ -12,6 +12,7 @@ body {
     width: 960px;
     text-align: center;
     padding: 20px;
+    margin:5px;
 }
 
 .nav {
@@ -57,23 +58,62 @@ p, ul, blockquote  {
     padding: 10px;
     Margin: 15px;
     height: 198px;
-    width: 175px;
+    width: 200px;
     text-align:center;
   }
 
 .content {
     background-color:white;
-    padding:5px;
+    width:960px;
+    padding:20px;
     Margin: 5px;
 }
 
 .footer {
+    display: block;
     background-color: gray;
     color:white;
     text-align: center;
-    height:35px;
+    height:30px;
+    width: 998px;
+    margin: 5px;
+    padding:1px;
     border-top-color: teal;
     border-width: thick;
     border-top-style: solid;
+    }
+
+.wrapper {
+        width:800px;
+        padding: 20px;
+        height: 700px;
+        color: white;
+        display: block;
+        
+    }
+
+.horse {
+        width:220px;
+        float:left;
+        margin: 30px;
+        height: 198px;
+        z-index: 1;
+    }
+
+figure img {
+        width: 200px;
+        height: 150px;
+        border:1px solid black;
+    }
+    
+figurecaption {
+        display: block;
+        position: relative;
+        top: -50px;
+        background-color: teal;
+        text-align: center;
+        width: 192px;
+        height: 25px;
+        padding:5px;
     }
 
